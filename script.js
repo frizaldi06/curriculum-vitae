@@ -7,7 +7,7 @@ if (btnEn) {
   });
 }
 
-if (btnNoclick) {
+if (btnRentcar) {
   btnEn.addEventListener("click", () => {
     window.location.href = "./rentcar.html";
   });
