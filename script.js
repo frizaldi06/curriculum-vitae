@@ -1,3 +1,4 @@
+const btnRentcar = document.getElementById("MCR");
 const btnEn = document.getElementById("En");
 const btnJp = document.getElementById("Jp");
 
@@ -7,7 +8,7 @@ if (btnEn) {
   });
 }
 
-if (btnrentcar) {
+if (btnRentcar) {
   btnEn.addEventListener("click", () => {
     window.location.href = "./rentcar.html";
   });
