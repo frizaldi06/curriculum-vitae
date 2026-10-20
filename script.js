@@ -9,7 +9,7 @@ if (btnEn) {
 }
 
 if (btnRentcar) {
-  btnEn.addEventListener("click", () => {
+  btnRentcar.addEventListener("click", () => {
     window.location.href = "./rentcar.html";
   });
 }
