@@ -7,6 +7,12 @@ if (btnEn) {
   });
 }
 
+if (btnNoclick) {
+  btnEn.addEventListener("click", () => {
+    window.location.href = "./rentcar.html";
+  });
+}
+
 if (btnJp) {
   btnJp.addEventListener("click", () => {
     window.location.href = "./index-jp.html";
