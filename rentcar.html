@@ -162,8 +162,8 @@
 <body>
 
     <header>
-        <h1>Malaysia Car Rental</h1>
-        <p>Sewa Mobil Mudah & Cepat di Malaysia</p>
+        <h1>Mitsuki Car Rent</h1>
+        <p>Easiest and Fastest Car Rental Service in Malaysia!</p>
     </header>
 
     <div class="container">
@@ -173,19 +173,19 @@
             <div class="carousel-slides active">
                 <img src="https://unsplash.com" alt="Perodua Myvi" class="car-image">
                 <div class="car-title">Perodua Myvi (Hatchback)</div>
-                <div class="car-price">RM 120 / Hari</div>
+                <div class="car-price">RM 120 / day</div>
             </div>
             <!-- Mobil 2 -->
             <div class="carousel-slides">
                 <img src="https://unsplash.com" alt="Proton Saga" class="car-image">
                 <div class="car-title">Proton Saga (Sedan)</div>
-                <div class="car-price">RM 110 / Hari</div>
+                <div class="car-price">RM 110 / day</div>
             </div>
             <!-- Mobil 3 -->
             <div class="carousel-slides">
                 <img src="https://unsplash.com" alt="Perodua Alza" class="car-image">
                 <div class="car-title">Perodua Alza (MPV 7-Seater)</div>
-                <div class="car-price">RM 180 / Hari</div>
+                <div class="car-price">RM 180 / day</div>
             </div>
 
             <!-- Tombol Navigasi -->
@@ -200,29 +200,29 @@
 
         <!-- Inquiry Form -->
         <div id="inquiry-form" class="form-section">
-            <h3>Formulir Pertanyaan & Pemesanan</h3>
+            <h3>Inquiry and Booking form</h3>
             <form onsubmit="handleFormSubmit(event)">
                 <div class="form-group">
-                    <label for="name">Nama Lengkap</label>
+                    <label for="name">Full name</label>
                     <input type="text" id="name" required placeholder="Masukkan nama Anda">
                 </div>
                 <div class="form-group">
-                    <label for="car-select">Pilih Mobil</label>
+                    <label for="car-select">Select car</label>
                     <select id="car-select" required>
-                        <option value="Perodua Myvi">Perodua Myvi (RM 120/hari)</option>
-                        <option value="Proton Saga">Proton Saga (RM 110/hari)</option>
-                        <option value="Perodua Alza">Perodua Alza (RM 180/hari)</option>
+                        <option value="Perodua Myvi">Perodua Myvi (RM 120/day)</option>
+                        <option value="Proton Saga">Proton Saga (RM 110/day)</option>
+                        <option value="Perodua Alza">Perodua Alza (RM 180/day)</option>
                     </select>
                 </div>
                 <div class="form-group">
-                    <label for="duration">Durasi Sewa (Hari)</label>
+                    <label for="duration">Rental duration (day)</label>
                     <input type="number" id="duration" min="1" required placeholder="Contoh: 3">
                 </div>
                 <div class="form-group">
-                    <label for="message">Pesan / Pertanyaan Tambahan</label>
-                    <textarea id="message" rows="4" placeholder="Tuliskan detail lokasi penjemputan atau pertanyaan Anda..."></textarea>
+                    <label for="message">Message/Additional inquiry</label>
+                    <textarea id="message" rows="4" placeholder="Write your pickup location or your question..."></textarea>
                 </div>
-                <button type="submit" class="btn-submit">Kirim Pertanyaan</button>
+                <button type="submit" class="btn-submit">Send Inquiry</button>
             </form>
         </div>
     </div>
@@ -257,7 +257,7 @@
             const car = document.getElementById('car-select').value;
             const duration = document.getElementById('duration').value;
             
-            alert(`Terima kasih ${name}! Pertanyaan Anda untuk penyewaan ${car} selama ${duration} hari telah diterima. Kami akan segera menghubungi Anda.`);
+            alert(`Thank you, ${name}! Your inquiry on ${car} car rent for ${duration} day has been received! We will contacting you soon.`);
             event.target.reset();
         }
     </script>
