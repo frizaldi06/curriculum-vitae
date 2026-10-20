@@ -1,4 +1,4 @@
-const btnRentcar = document.getElementById("Rentcar");
+const btnRentcar = document.getElementById("rentcar");
 const btnEn = document.getElementById("En");
 const btnJp = document.getElementById("Jp");
 
@@ -19,6 +19,3 @@ if (btnJp) {
     window.location.href = "./index-jp.html";
   });
 }
-
-
-
