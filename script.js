@@ -1,4 +1,4 @@
-const btnRentcar = document.getElementById("MCR");
+const btnRentcar = document.getElementById("Rentcar");
 const btnEn = document.getElementById("En");
 const btnJp = document.getElementById("Jp");
 
